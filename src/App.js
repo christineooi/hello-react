@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Text extends Component {
   constructor(props) {
     super(props);
@@ -22,11 +21,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello, <Text color="purple" value ="Christine"/></h1>
+        <h1>Hello, <Text color="purple" value ="Christine"/>!</h1>
+        <h1>Hello, <Text color="pink" value ="Lady"/>!</h1>
       </div>
     );
   }
 }
-
 
 export default App;
